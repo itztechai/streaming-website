@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head{
+font-size: xx-large;
+text-align: center;
+text-transform: capitalize;
+text-overflow: ellipsis;
+color: white;
+}
+.h2{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    position: relative;
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #f5f5f5;
+    text-align: right;
+    font-size: x-large;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  .find{
+    font-size: xx-large;
+    color: #fff;
+    
+  }
+.form {
+	margin-bottom: 25px;
+    text-align: left;
+}
+
+.form__email {
+	padding: 20px 25px;
+	border-radius: 5px;
+ 	border: 1px solid #1b74c2;
+	width: 431px;
+	font-size: 18px;
+	color: #0F121F;
+}
+
+.form__email:focus {
+	outline: 1px solid #000000;
+}
+
+.form__button {
+	background: #188ba8;
+	padding: 10px;
+	border: none;
+	width: 244px;
+	height: 65px;
+	border-radius: 5px;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	box-shadow: 0 4px 20px rgba(255, 255, 255, 0.7);
+}
+.form__button:hover {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
